@@ -12082,9 +12082,9 @@ $.widget( "ui.progressbar", {
 
 (function( $, undefined ) {
 
-// number of pages in a slider
+// number of Our Services in a slider
 // (how many times can you page up/down to go through the whole range)
-var numPages = 5;
+var numOur Services = 5;
 
 $.widget( "ui.slider", $.ui.mouse, {
 	version: "1.9.2",
@@ -12224,10 +12224,10 @@ $.widget( "ui.slider", $.ui.mouse, {
 						newVal = this._valueMax();
 						break;
 					case $.ui.keyCode.PAGE_UP:
-						newVal = this._trimAlignValue( curVal + ( (this._valueMax() - this._valueMin()) / numPages ) );
+						newVal = this._trimAlignValue( curVal + ( (this._valueMax() - this._valueMin()) / numOur Services ) );
 						break;
 					case $.ui.keyCode.PAGE_DOWN:
-						newVal = this._trimAlignValue( curVal - ( (this._valueMax() - this._valueMin()) / numPages ) );
+						newVal = this._trimAlignValue( curVal - ( (this._valueMax() - this._valueMin()) / numOur Services ) );
 						break;
 					case $.ui.keyCode.UP:
 					case $.ui.keyCode.RIGHT:
@@ -13152,12 +13152,12 @@ $.widget( "ui.spinner", {
 		this._spin( (steps || 1) * -this.options.step );
 	},
 
-	pageUp: modifier(function( pages ) {
-		this._stepUp( (pages || 1) * this.options.page );
+	pageUp: modifier(function( Our Services ) {
+		this._stepUp( (Our Services || 1) * this.options.page );
 	}),
 
-	pageDown: modifier(function( pages ) {
-		this._stepDown( (pages || 1) * this.options.page );
+	pageDown: modifier(function( Our Services ) {
+		this._stepDown( (Our Services || 1) * this.options.page );
 	}),
 
 	value: function( newVal ) {

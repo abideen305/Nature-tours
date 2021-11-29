@@ -521,7 +521,7 @@ h2.resp-accordion {
     text-align: center;
     margin: 20px 0;
 }
-/* hotel booking form */
+/* hotel Magazine form */
 .agileits_grid {
     margin-bottom: 14px;
 }
@@ -621,9 +621,9 @@ h2.resp-accordion {
     border: none;
     cursor: pointer;
 }
-/* hotel booking form */
+/* hotel Magazine form */
 
-/* cab booking form */
+/* cab Magazine form */
 .wthreelable {
     width: 25%;
     float: left;
@@ -715,9 +715,9 @@ input[type="text"], input[type="email"], textarea {
     cursor: pointer;
     background: #1cc7d0;
 }
-/* cab booking form */
+/* cab Magazine form */
 
-/* train booking form */
+/* train Magazine form */
 .wthree_grid h5, .agileinfo_main_grid h5, .agileinfo_main_grid1 h5 {
     margin: 5px 0px;
 }
@@ -738,7 +738,7 @@ input[type="text"], input[type="email"], textarea {
 .agileits_w3layouts_grid.mim {
     margin-bottom: 10px;
 }
-/* train booking form */
+/* train Magazine form */
 
 
 /*--Responsive-start-here--*/
