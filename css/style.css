@@ -37,13 +37,13 @@ img{
 }
 /*-- banner --*/
 .banner-1{
-	background:url(../images/1.jpg) no-repeat 0px 0px;
+	background:url(../images/bd.jpeg) no-repeat 0px 0px;
 	background-size:cover;
     position: relative;
 	min-height:300px;
 }
 .banner{
-	background:url(../images/1.jpg) no-repeat 0px 0px;
+	background:url(../images/bd.jpeg) no-repeat 0px 0px;
 	background-size:cover;
     position: relative;
 }
@@ -109,14 +109,14 @@ img{
     color: #ececec;
     border: 1px solid #1da1f2;
 }
-.top-middle .fa-google-plus {
+.top-middle .fa-instagram {
     font-size: 16px;
     text-align: center;
     line-height: 29px;
     width: 30px;
     height: 30px;
 }
-.top-middle .fa-google-plus:hover {
+.top-middle .fa-instagram:hover {
     background: #dd4b39;
     color: #ececec;
     border: 1px solid #dd4b39;
